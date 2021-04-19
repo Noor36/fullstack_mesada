@@ -1,0 +1,95 @@
+body{
+  direction:rtl;
+  font-family: 'Heebo', sans-serif;
+}
+#header{
+  /* height: 100px; */
+  margin-top: -6px;
+  /* align-items: center; */
+}
+.mynav li{
+    /*width: 200px;*/
+    /* height: 30px; */
+    /* color: black; */
+    font-size: 30px;
+    /* border: 2px solid #271a0c; */
+    /* margin-left: 10px; */
+}
+.mynav li:not(:last-child){
+  margin-left: 16px;
+}
+.navbar form-inline{
+  margin-left: 10px;
+}
+.img-fluid{
+  width:2000px;
+  height:400px;
+  margin-top: 30px;
+  position:relative;
+  border-radius: 30px;
+}
+.form-inline{
+  position:absolute;
+  top:47%;
+  left:248px;
+  font-size: 40px;
+  color:green;
+  /* text-align: center; */
+  background:#fff;
+  opacity: 0.7;
+  align: center;
+}
+#demo{
+  height: 40%;
+  width: 70%;
+  left: -160px;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    /*width: 900px;
+    height: 450px;*/
+ }
+.card1, .card2, .card3{
+  width:400px;
+  margin-top: 30px;
+  display: inline-block;
+}
+.card-img-top1, .card-img-top2, .card-img-top3{
+  width:100%;
+  height: 254px;
+}
+
+.card-body{
+  text-align: right;
+}
+/* .card-title > .card-text{
+
+} */
+
+
+/*search box css start here*/
+/* .search-sec{
+    background: #1A4668;padding: 2rem;
+}
+.search-slt{
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+.wrn-btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+     height: calc(3rem + 2px) !important;
+     border-radius:0;
+} */

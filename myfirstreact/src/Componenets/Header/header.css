@@ -1,0 +1,42 @@
+#header{
+  /* height: 100px; */
+  margin-top: -6px;
+  /* align-items: center; */
+}
+.mynav li{
+    /*width: 200px;*/
+    /* height: 30px; */
+    /* color: black; */
+    font-size: 30px;
+    /* border: 2px solid #271a0c; */
+    /* margin-left: 10px; */
+}
+.mynav li:not(:last-child){
+  margin-left: 16px;
+}
+.navbar form-inline{
+  margin-left: 10px;
+}
+.img-fluid{
+  width:2000px;
+  height:400px;
+  margin-top: 30px;
+  position:relative;
+  border-radius: 30px;
+}
+.form-inline{
+  position:absolute;
+  top:47%;
+  left:248px;
+  font-size: 40px;
+  color:green;
+  /* text-align: center; */
+  background:#fff;
+  opacity: 0.7;
+  align: center;
+}
+#demo{
+  height: 40%;
+  width: 70%;
+  left: -160px;
+}
