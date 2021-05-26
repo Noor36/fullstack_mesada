@@ -1,27 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-
-export const CarouselItems = [
+const CarouselItems = [
    {
 
-   "imgsrc":"/img/aocl.jpg",
-   "className":"piccar1",
-   "caption":""
+   imgsrc:"/img/aocl.jpg",
 
   },
   {
 
-  "imgsrc":"/img/Cond.jpg",
-  "className":"piccar2",
-  "caption":""
+  imgsrc:"/img/Cond.jpg",
+
+
 
  },
  {
 
- "imgsrc":"/img/mocram.jpg",
- "className":"piccar3",
- "caption":""
-
+  imgsrc:"/img/mocram.jpg",
+ 
 }
-];
+]
 export default CarouselItems;
